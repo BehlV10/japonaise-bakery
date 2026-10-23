@@ -79,8 +79,7 @@ export const menuCategories = [
         japanese: "食パン",
         price: "$5.50 bag / $16.50 loaf",
         description: "Japanese traditional soft white bread made with pure milk. Fluffy, cloud-like texture.",
-        tag: "Bestseller",
-        image: "./images/IMG-3585.jpg"
+        tag: "Bestseller"
       },
       {
         name: "Premium Shoku Pan",
@@ -289,23 +288,20 @@ export const menuCategories = [
         japanese: "あずきクリーム",
         price: "$5.50",
         description: "Our #1 most popular pastry! Flaky croissant shell filled with sweet red bean paste and freshly whipped chantilly cream.",
-        tag: "#1 Bestseller",
-        image: "./images/IMG-3581.jpg"
+        tag: "#1 Bestseller"
       },
       {
         name: "Matcha Azuki Cream Croissant",
         japanese: "抹茶あずきクリーム",
         price: "$6.00",
         description: "Flaky croissant shell filled with azuki paste and freshly whipped Japanese matcha green tea cream, dusted with Uji matcha powder.",
-        tag: "Signature",
-        image: "./images/IMG-3588.jpg"
+        tag: "Signature"
       },
       {
         name: "Ichigo Cream Croissant",
         japanese: "いちごクリーム",
         price: "$4.50",
-        description: "Croissant triangle filled with silky vanilla custard cream and freshly sliced strawberries.",
-        image: "./images/IMG-3596.jpg"
+        description: "Croissant triangle filled with silky vanilla custard cream and freshly sliced strawberries."
       },
       {
         name: "Matcha Ichigo Croissant",
@@ -386,7 +382,7 @@ export const menuCategories = [
         price: "$6.95 slice · $45 (6″) · $65 (9″)",
         description: "Japan's quintessential celebration cake. Airy almond sponge cake layered with fresh chantilly whipped cream and sweet strawberries. Can be made nut-free upon advance order.",
         tag: "Signature Cake",
-        image: "./images/1.png"
+        image: "./images/IMG-3581.jpg"
       },
       {
         name: "Japonaise Green Tea Cake",
@@ -394,7 +390,7 @@ export const menuCategories = [
         price: "$6.95 slice · $45 (6″) · $65 (9″)",
         description: "Matcha sponge cake, delicate genoise layered with silky Bavarian cream, and crowned with emerald matcha gelatin.",
         tag: "Iconic",
-        image: "./images/2.png"
+        image: "./images/IMG-3588.jpg"
       },
       {
         name: "Choco Queen Cake",
@@ -402,19 +398,19 @@ export const menuCategories = [
         price: "$6.95 slice · $45 (6″) · $65 (9″)",
         description: "Chocolate genoise layered with light whipped chocolate cream and thinly sliced sweet bananas.",
         tag: "Customer Favorite",
-        image: "./images/3.png"
+        image: "./images/IMG-3585.jpg"
       },
       {
         name: "Chocolate Bread Pudding",
         japanese: "チョコレートブレッドプリン",
         price: "$3.95 mini / $9.95 regular",
-        description: "Rich custard bread pudding prepared with homemade chocolate croissants, dark rum, cinnamon, and vanilla custard.",
+        description: "Rich custard bread pudding prepared with homemade chocolate croissants, dark rum, cinnamon, and vanilla custard."
       },
       {
         name: "Apple Bread Pudding",
         japanese: "アップルブレッドプリン",
         price: "$3.95 mini / $9.95 regular",
-        description: "Custard pudding made with our homemade apple croissants, rum raisins, orange peels, and warm spices.",
+        description: "Custard pudding made with our homemade apple croissants, rum raisins, orange peels, and warm spices."
       },
       {
         name: "Caramel Custard Pudding (Purin)",
@@ -422,7 +418,7 @@ export const menuCategories = [
         price: "$4.50",
         description: "Silky Japanese-style custard pudding settled in deep bittersweet amber caramel sauce.",
         dietary: "Gluten-Free",
-        tag: "Gluten-Free",
+        tag: "Gluten-Free"
       },
       {
         name: "Creme Mango Coco",
@@ -431,6 +427,7 @@ export const menuCategories = [
         description: "Tropical layers of velvety coconut panna cotta, mango panna cotta, mango puree, and juicy fresh mango chunks.",
         dietary: "Gluten-Free",
         tag: "Gluten-Free",
+        image: "./images/IMG-3596.jpg"
       }
     ]
   },
