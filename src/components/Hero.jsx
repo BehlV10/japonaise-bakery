@@ -81,10 +81,10 @@ export default function Hero({ onExploreMenu, onVisit }) {
                     className="w-full h-full object-cover object-center transform hover:scale-105 transition duration-700"
                   />
                   
-                  {/* Floating Badge */}
-                  <div className="absolute bottom-3 left-3 bg-[#FAF7F2]/95 backdrop-blur-md px-3.5 py-1.5 rounded-full shadow-md border border-[#DFCBB5] flex items-center gap-1.5 text-xs font-medium text-[#2C231F]">
+                  {/* Subtle Top-Right Tag */}
+                  <div className="absolute top-3 right-3 bg-[#FAF7F2]/95 backdrop-blur-md px-3 py-1 rounded-full shadow-sm border border-[#DFCBB5] flex items-center gap-1.5 text-xs font-medium text-[#2C231F]">
                     <Sparkles className="w-3.5 h-3.5 text-[#C1882A]" />
-                    <span>Freshly baked every morning</span>
+                    <span>Baked Daily from Scratch</span>
                   </div>
                 </div>
 
@@ -99,14 +99,14 @@ export default function Hero({ onExploreMenu, onVisit }) {
                 </div>
               </div>
 
-              {/* Floating Review Badge */}
-              <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg border border-[#E8DEC8] hidden sm:flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-[#EFE6D8] flex items-center justify-center text-[#8C3A27]">
-                  <Award className="w-5 h-5" />
+              {/* Award Badge - Positioned Cleanly Below Card, No Overlap */}
+              <div className="mt-4 bg-white p-3.5 rounded-2xl shadow-sm border border-[#E8DEC8] flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-[#EFE6D8] flex items-center justify-center text-[#8C3A27] shrink-0">
+                  <Award className="w-5 h-5 text-[#8C3A27]" />
                 </div>
                 <div>
-                  <p className="text-xs font-semibold text-[#2C231F]">Boston Food Lover Award</p>
-                  <p className="text-[11px] text-[#73655D]">Voted Boston's Best Croissants</p>
+                  <p className="text-xs font-bold text-[#2C231F]">Boston Food Lover Award</p>
+                  <p className="text-[11px] text-[#73655D]">Voted Boston's Best Authentic Croissants</p>
                 </div>
               </div>
 

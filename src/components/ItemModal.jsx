@@ -18,32 +18,46 @@ export default function ItemModal({ item, onClose }) {
         className="bg-white rounded-3xl max-w-lg w-full overflow-hidden shadow-2xl border border-[#E3D6C5] flex flex-col max-h-[90vh] animate-in zoom-in-95 duration-200"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Photo header */}
-        <div className="relative aspect-[16/10] bg-stone-100 overflow-hidden shrink-0">
-          <img
-            src={item.image || './images/DSC_6880-2.jpg'}
-            alt={item.name}
-            className="w-full h-full object-cover object-center"
-            onError={(e) => {
-              e.currentTarget.onerror = null;
-              e.currentTarget.src = './images/DSC_6880-2.jpg';
-            }}
-          />
-          <button
-            onClick={onClose}
-            className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/80 hover:bg-white text-stone-700 flex items-center justify-center transition shadow-sm cursor-pointer"
-            aria-label="Close dialog"
-          >
-            <X className="w-5 h-5" />
-          </button>
+        {/* Photo header ONLY if authentic image exists */}
+        {item.image ? (
+          <div className="relative aspect-[16/10] bg-stone-100 overflow-hidden shrink-0">
+            <img
+              src={item.image}
+              alt={item.name}
+              className="w-full h-full object-cover object-center"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+              }}
+            />
+            <button
+              onClick={onClose}
+              className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/80 hover:bg-white text-stone-700 flex items-center justify-center transition shadow-sm cursor-pointer"
+              aria-label="Close dialog"
+            >
+              <X className="w-5 h-5" />
+            </button>
 
-          {item.tag && (
-            <div className="absolute bottom-3 left-3 bg-[#FAF2E6]/95 backdrop-blur-xs border border-[#ECD9C3] text-[#8C3A27] px-3 py-1 rounded-full text-xs font-semibold shadow-sm flex items-center gap-1">
-              <Sparkles className="w-3.5 h-3.5 text-[#C1882A]" />
-              {item.tag}
-            </div>
-          )}
-        </div>
+            {item.tag && (
+              <div className="absolute bottom-3 left-3 bg-[#FAF2E6]/95 backdrop-blur-xs border border-[#ECD9C3] text-[#8C3A27] px-3 py-1 rounded-full text-xs font-semibold shadow-sm flex items-center gap-1">
+                <Sparkles className="w-3.5 h-3.5 text-[#C1882A]" />
+                {item.tag}
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="p-6 pb-3 bg-[#FAF7F2] border-b border-[#EAE0D2] flex items-center justify-between">
+            <span className="text-xs uppercase tracking-wider font-semibold text-[#8C3A27] bg-[#EFE6D8] px-3 py-1 rounded-full">
+              {item.categoryName}
+            </span>
+            <button
+              onClick={onClose}
+              className="w-8 h-8 rounded-full bg-white text-stone-700 flex items-center justify-center transition shadow-sm border border-[#D5C2AD] cursor-pointer"
+              aria-label="Close dialog"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          </div>
+        )}
 
         {/* Modal Body */}
         <div className="p-6 overflow-y-auto space-y-4">

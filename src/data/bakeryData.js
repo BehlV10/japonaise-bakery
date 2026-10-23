@@ -80,7 +80,7 @@ export const menuCategories = [
         price: "$5.50 bag / $16.50 loaf",
         description: "Japanese traditional soft white bread made with pure milk. Fluffy, cloud-like texture.",
         tag: "Bestseller",
-        image: "./images/25.png"
+        image: "./images/IMG-3585.jpg"
       },
       {
         name: "Premium Shoku Pan",
@@ -88,21 +88,18 @@ export const menuCategories = [
         price: "$6.50 bag / $19.50 loaf",
         description: "Rich and slightly sweet white bread enriched with heavy cream for ultimate decadence.",
         tag: "Premium",
-        image: "./images/26.png"
       },
       {
         name: "Butter Rolls",
         japanese: "バターロール",
         price: "$1.50 roll / $7.00 bag (5 pcs)",
         description: "Our version of classic Japanese dinner rolls with rich golden butter. 5 rolls per bag.",
-        image: "./images/21.png"
       },
       {
         name: "Pull Apart Raisin Bun",
         japanese: "レーズンパン",
         price: "$2.00 roll / $10.00 bag",
         description: "Soft sweet bun filled with rum-soaked plump raisins and dusted with fine sugar.",
-        image: "./images/19.png"
       },
       {
         name: "Shio Butter Roll",
@@ -110,14 +107,12 @@ export const menuCategories = [
         price: "$2.50 / roll",
         description: "Popular Japanese butter roll with a melted salted butter core and a touch of sea salt.",
         tag: "Popular",
-        image: "./images/16.png"
       },
       {
         name: "Smoked Chibi",
         japanese: "スモークチビ",
         price: "$3.50",
         description: "Soft butter roll wrapped around Berkshire black pork sausage with a touch of ketchup glaze.",
-        image: "./images/18.png"
       },
       {
         name: "Plain Challah",
@@ -125,7 +120,6 @@ export const menuCategories = [
         price: "$9.00 loaf",
         description: "Traditional braided bread with a golden crust. Freshly baked every Thursday & Friday.",
         note: "Baked Thurs / Fri",
-        image: "./images/1.png"
       },
       {
         name: "Chocolate Challah",
@@ -133,7 +127,6 @@ export const menuCategories = [
         price: "$11.00 loaf",
         description: "Decadent braided challah swirled with rich chocolate ribbons.",
         note: "Baked Thurs / Fri",
-        image: "./images/3.png"
       },
       {
         name: "Sesame Challah",
@@ -141,7 +134,6 @@ export const menuCategories = [
         price: "$11.00 loaf",
         description: "Aromatic challah loaf coated in toasted sesame seeds.",
         note: "Baked Thurs / Fri",
-        image: "./images/6.png"
       },
       {
         name: "Cinnamon Raisin Challah",
@@ -149,7 +141,6 @@ export const menuCategories = [
         price: "$11.00 loaf",
         description: "Braided challah laced with warm Ceylon cinnamon and sweet raisins.",
         note: "Baked Thurs / Fri",
-        image: "./images/8.png"
       },
       {
         name: "Poppy Seed Challah",
@@ -157,7 +148,6 @@ export const menuCategories = [
         price: "$11.00 loaf",
         description: "Braided challah coated generously with crunchy poppy seeds.",
         note: "Baked Saturdays",
-        image: "./images/2.png"
       },
       {
         name: "Azuki Challah",
@@ -165,7 +155,6 @@ export const menuCategories = [
         price: "$8.00 loaf",
         description: "Unique fusion braiding sweet Japanese red bean (azuki) into challah dough.",
         note: "Baked Thurs / Fri",
-        image: "./images/9.png"
       },
       {
         name: "Challah Tea Rolls",
@@ -173,7 +162,6 @@ export const menuCategories = [
         price: "$6.00 / bag (Plain) · $7.50 / bag (Varieties)",
         description: "Mini challah tea rolls. Available in Plain, Chocolate, and Cinnamon Raisin.",
         note: "Baked Thurs / Fri",
-        image: "./images/10.png"
       }
     ]
   },
@@ -189,14 +177,12 @@ export const menuCategories = [
         price: "$3.50",
         description: "Traditional Japanese sweet dough filled with sweet red bean paste and topped with poppy seeds.",
         tag: "Classic",
-        image: "./images/12.png"
       },
       {
         name: "Coco An Pan",
         japanese: "ここあんパン",
         price: "$3.75",
         description: "Japanese sweet dough with an Azuki (red bean) and toasted coconut swirl.",
-        image: "./images/13.png"
       },
       {
         name: "Melon Pan",
@@ -204,21 +190,18 @@ export const menuCategories = [
         price: "$3.50",
         description: "Light Japanese sweet dough covered with our signature crispy sugar cookie crust.",
         tag: "Iconic",
-        image: "./images/14.png"
       },
       {
         name: "Black Sesame Melon Pan",
         japanese: "黒ごまメロンパン",
         price: "$3.75",
         description: "Light Japanese sweet dough covered with an aromatic roasted black sesame cookie crust.",
-        image: "./images/7.png"
       },
       {
         name: "Custard Cream Pan",
         japanese: "カスタードクリーム",
         price: "$4.00",
         description: "Tender sweet dough filled and baked with silky house-made vanilla custard cream.",
-        image: "./images/11.png"
       },
       {
         name: "Cream Pan Man",
@@ -226,7 +209,6 @@ export const menuCategories = [
         price: "$3.00",
         description: "Beloved character sweet dough shaped and baked with rich vanilla custard cream.",
         tag: "Kids Favorite",
-        image: "./images/15.png"
       },
       {
         name: "Boston Cream",
@@ -234,7 +216,6 @@ export const menuCategories = [
         price: "$4.50",
         description: "Our Japanese take on the Boston classic: filled with custard cream and subtle orange zest.",
         tag: "Local Favorite",
-        image: "./images/4.png"
       },
       {
         name: "Totoro Pan (Cream / Chocolate)",
@@ -249,7 +230,6 @@ export const menuCategories = [
         japanese: "チョココロネ",
         price: "$4.50",
         description: "Spiral cone of sweet pastry dough filled with rich chocolate custard cream, capped with Belgian chocolate.",
-        image: "./images/17.png"
       }
     ]
   },
@@ -265,42 +245,36 @@ export const menuCategories = [
         price: "$5.00",
         description: "Crispy panko-breaded fried dough filled with savory Japanese beef and vegetable curry.",
         tag: "Must Try",
-        image: "./images/5.png"
       },
       {
         name: "An Doughnut",
         japanese: "あんドーナツ",
         price: "$4.00",
         description: "Golden fried donut filled with smooth sweet azuki red bean paste and rolled in sugar.",
-        image: "./images/20.png"
       },
       {
         name: "Kinako An Doughnut",
         japanese: "きなこあんドーナツ",
         price: "$4.25",
         description: "Red bean filled doughnut generously dusted with roasted soybean powder (Kinako).",
-        image: "./images/22.png"
       },
       {
         name: "Twist Doughnut",
         japanese: "ツイストドーナツ",
         price: "$3.50",
         description: "Classic braided yeast doughnut dusted in crystalline sugar.",
-        image: "./images/24.png"
       },
       {
         name: "Kinako Twist Doughnut",
         japanese: "きなこツイストドーナツ",
         price: "$3.75",
         description: "Braided twist doughnut rolled in fragrant nutty roasted soybean powder.",
-        image: "./images/27.png"
       },
       {
         name: "Cinnamon Sugar Twist Doughnut",
         japanese: "シナモンシュガーツイストドーナツ",
         price: "$4.00",
         description: "Fluffy twist doughnut rolled in sweet cinnamon and sugar.",
-        image: "./images/28.png"
       }
     ]
   },
@@ -338,7 +312,6 @@ export const menuCategories = [
         japanese: "抹茶いちご",
         price: "$5.00",
         description: "Matcha-infused croissant triangle with custard cream and fresh Massachusetts strawberries.",
-        image: "./images/3.png"
       },
       {
         name: "Plain Croissant",
@@ -346,21 +319,19 @@ export const menuCategories = [
         price: "$4.00",
         description: "Voted 'Best of Boston' by Boston Food Lover. 100% pure butter laminated into dozens of golden, honeycomb layers.",
         tag: "Award Winner",
-        image: "./images/4.png"
+        image: "./images/DSC_6880-2.jpg"
       },
       {
         name: "Mini Croissant",
         japanese: "ミニクロワッサン",
         price: "$2.50",
         description: "Bite-sized version of our award-winning butter croissant.",
-        image: "./images/5.png"
       },
       {
         name: "Chocolate Croissant (Pain au Chocolat)",
         japanese: "チョコレートクロワッサン",
         price: "$3.50",
         description: "Imported Belgian chocolate batons wrapped inside buttery, flaky croissant pastry.",
-        image: "./images/6.png"
       },
       {
         name: "Almond Croissant",
@@ -368,7 +339,6 @@ export const menuCategories = [
         price: "$5.50",
         description: "Twice-baked croissant filled with rich homemade almond frangipane, topped with toasted sliced almonds.",
         dietary: "Contains almonds",
-        image: "./images/2.png"
       },
       {
         name: "Pain Au Raisin",
@@ -376,7 +346,6 @@ export const menuCategories = [
         price: "$5.00",
         description: "Croissant spiral layered with custard cream and rum-soaked plump raisins, finished with an apricot glaze.",
         dietary: "Baked with almond flour",
-        image: "./images/5.png"
       },
       {
         name: "Ham and Cheese Croissant",
@@ -384,28 +353,24 @@ export const menuCategories = [
         price: "$5.00",
         description: "Preservative-free smoked ham and imported Swiss Gruyere cheese baked into buttery lamination.",
         tag: "Savory",
-        image: "./images/3.png"
       },
       {
         name: "Apple Croissant",
         japanese: "アップルクロワッサン",
         price: "$5.00",
         description: "Baked with fresh spiced apple slices, cinnamon, and a delicate pastry glaze.",
-        image: "./images/4.png"
       },
       {
         name: "Blueberry Croissant",
         japanese: "ブルーベリークロワッサン",
         price: "$5.00",
         description: "Croissant filled with custard and wild blueberries, topped with apricot glaze and fresh garden thyme.",
-        image: "./images/6.png"
       },
       {
         name: "Handmade Scones",
         japanese: "スコーン",
         price: "$4.00",
         description: "Choice of Lemon Blueberry (buttermilk base with citrus zest) or Candied Ginger (heavy cream base with candied Thai ginger).",
-        image: "./images/1.png"
       }
     ]
   },
@@ -444,14 +409,12 @@ export const menuCategories = [
         japanese: "チョコレートブレッドプリン",
         price: "$3.95 mini / $9.95 regular",
         description: "Rich custard bread pudding prepared with homemade chocolate croissants, dark rum, cinnamon, and vanilla custard.",
-        image: "./images/4.png"
       },
       {
         name: "Apple Bread Pudding",
         japanese: "アップルブレッドプリン",
         price: "$3.95 mini / $9.95 regular",
         description: "Custard pudding made with our homemade apple croissants, rum raisins, orange peels, and warm spices.",
-        image: "./images/5.png"
       },
       {
         name: "Caramel Custard Pudding (Purin)",
@@ -460,7 +423,6 @@ export const menuCategories = [
         description: "Silky Japanese-style custard pudding settled in deep bittersweet amber caramel sauce.",
         dietary: "Gluten-Free",
         tag: "Gluten-Free",
-        image: "./images/6.png"
       },
       {
         name: "Creme Mango Coco",
@@ -469,7 +431,6 @@ export const menuCategories = [
         description: "Tropical layers of velvety coconut panna cotta, mango panna cotta, mango puree, and juicy fresh mango chunks.",
         dietary: "Gluten-Free",
         tag: "Gluten-Free",
-        image: "./images/2.png"
       }
     ]
   },
@@ -492,14 +453,12 @@ export const menuCategories = [
         japanese: "ポテトコロッケサンド",
         price: "$4.95",
         description: "Crispy panko-crusted spiced potato patty with sweet tonkatsu glaze and fresh crisp lettuce on a soft roll.",
-        image: "./images/18.png"
       },
       {
         name: "Tuna Salad Roll",
         japanese: "ツナロール",
         price: "$4.00",
         description: "Japanese-style seasoned tuna salad served on a warm bakery roll with crisp lettuce.",
-        image: "./images/21.png"
       }
     ]
   },
@@ -515,7 +474,6 @@ export const menuCategories = [
         price: "$3.50",
         description: "Tuna salad seasoned with sriracha chili and Japanese Kewpie mayonnaise.",
         dietary: "Gluten-Free",
-        image: "./images/Screen_Shot_2023-06-02_at_3.08.27_PM.jpg"
       },
       {
         name: "Tuna Mayo Onigiri",
@@ -523,7 +481,6 @@ export const menuCategories = [
         price: "$3.50",
         description: "Tender flaked tuna folded into creamy Japanese Kewpie mayo.",
         dietary: "Gluten-Free",
-        image: "./images/Screen_Shot_2023-06-02_at_3.08.27_PM.jpg"
       },
       {
         name: "Ume (Pickled Plum) Onigiri",
@@ -531,7 +488,6 @@ export const menuCategories = [
         price: "$3.50",
         description: "Traditional sour Japanese umeboshi plum filling. Tangy and refreshing.",
         dietary: "Gluten-Free · Vegan",
-        image: "./images/Screen_Shot_2023-06-02_at_3.08.27_PM.jpg"
       },
       {
         name: "Konbu (Seaweed) Onigiri",
@@ -539,7 +495,6 @@ export const menuCategories = [
         price: "$3.50",
         description: "Shredded kelp simmered in soy, mirin, and toasted sesame seeds.",
         dietary: "Vegetarian",
-        image: "./images/Screen_Shot_2023-06-02_at_3.08.27_PM.jpg"
       },
       {
         name: "Takana (Mustard Greens) Onigiri",
@@ -547,7 +502,6 @@ export const menuCategories = [
         price: "$3.50",
         description: "Pickled Japanese mustard greens tossed with chili pepper flakes.",
         dietary: "Gluten-Free · Vegan",
-        image: "./images/Screen_Shot_2023-06-02_at_3.08.27_PM.jpg"
       }
     ]
   }

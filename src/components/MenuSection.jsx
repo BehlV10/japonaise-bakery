@@ -225,9 +225,15 @@ export default function MenuSection({ onSelectItem }) {
                   <span className="font-semibold text-sm text-[#2C231F]">
                     {item.price}
                   </span>
-                  <span className="text-xs text-[#8C3A27] font-medium flex items-center gap-1 group-hover:underline">
-                    <Eye className="w-3.5 h-3.5" /> View Photo
-                  </span>
+                  {item.image ? (
+                    <span className="text-xs text-[#8C3A27] font-medium flex items-center gap-1 group-hover:underline">
+                      <Eye className="w-3.5 h-3.5" /> View Photo
+                    </span>
+                  ) : (
+                    <span className="text-[11px] text-stone-400 font-normal">
+                      Fresh Daily
+                    </span>
+                  )}
                 </div>
               </div>
             ))}
