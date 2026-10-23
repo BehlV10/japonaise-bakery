@@ -20,8 +20,8 @@ export default function SpecialsSection() {
           </p>
         </div>
 
-        {/* Specials Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        {/* Specials Cards Grid (6 Items) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {holidaySpecials.map((special, idx) => (
             <div
               key={special.title}
@@ -29,11 +29,11 @@ export default function SpecialsSection() {
             >
               <div>
                 {/* Visual Image */}
-                <div className="relative aspect-[4/3] bg-stone-100 overflow-hidden">
+                <div className="relative aspect-[4/3] bg-[#FDFBF7] p-3 overflow-hidden flex items-center justify-center border-b border-[#F0E6D8]">
                   <img
                     src={special.image}
                     alt={special.title}
-                    className="w-full h-full object-cover object-center hover:scale-105 transition duration-500"
+                    className="w-full h-full object-contain hover:scale-105 transition duration-500"
                   />
                   <div className="absolute top-2.5 right-2.5 bg-[#2C231F]/90 text-white text-[10px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded-full backdrop-blur-xs flex items-center gap-1">
                     <Sparkles className="w-3 h-3 text-[#D4AF37]" />
@@ -52,12 +52,31 @@ export default function SpecialsSection() {
                   <p className="text-xs text-[#6B5E55] leading-relaxed">
                     {special.description}
                   </p>
+
+                  {/* Available Cake Bases */}
+                  {special.bases && (
+                    <div className="mt-3.5 pt-3 border-t border-[#F0E6D8]">
+                      <span className="text-[10px] uppercase font-bold tracking-wider text-[#73655D] block mb-1.5">
+                        Available On Choice Of:
+                      </span>
+                      <div className="flex flex-wrap gap-1">
+                        {special.bases.map((base, bIdx) => (
+                          <span
+                            key={bIdx}
+                            className="text-[10px] bg-[#FAF2E6] text-[#8C3A27] px-2 py-0.5 rounded-md font-medium border border-[#ECD9C3]"
+                          >
+                            {base}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
 
               <div className="p-5 pt-0">
                 <span className="text-[11px] text-[#8C3A27] font-medium block border-t border-[#F0E6D8] pt-3">
-                  ★ Limited availability · Inquire at counter
+                  ★ Advance pre-order recommended · Inquire at counter
                 </span>
               </div>
             </div>

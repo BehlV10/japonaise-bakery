@@ -506,32 +506,52 @@ export const menuCategories = [
 
 export const holidaySpecials = [
   {
-    title: "Christmas Cake Specials",
-    japanese: "クリスマス限定ケーキ",
-    description: "Festive Japanese holiday decoration available on our Strawberry Shortcake, Chocolate Queen, or Japonaise Green Tea cakes.",
-    season: "Winter / Holiday Season",
-    image: "./images/1.png"
+    title: "Christmas Special (Strawberry Shortcake)",
+    japanese: "クリスマス限定 ショートケーキ",
+    description: "Christmas Special. Available on Strawberry Shortcake, Chocolate Queen, or Japonaise Green Tea.",
+    season: "Christmas / Winter",
+    image: "./images/holiday_christmas_1.png",
+    bases: ["Strawberry Shortcake", "Chocolate Queen", "Japonaise Green Tea"]
   },
   {
-    title: "Mother's Day & Valentine's Specials",
+    title: "Christmas Special (Chocolate Queen)",
+    japanese: "クリスマス限定 チョコクイーン",
+    description: "Christmas Special. Available on Strawberry Shortcake, Chocolate Queen, or Japonaise Green Tea.",
+    season: "Christmas / Winter",
+    image: "./images/holiday_christmas_2.png",
+    bases: ["Strawberry Shortcake", "Chocolate Queen", "Japonaise Green Tea"]
+  },
+  {
+    title: "Mother’s Day & Valentine’s Special",
     japanese: "母の日・バレンタイン特製ケーキ",
-    description: "Handcrafted chocolate hearts and fresh strawberry bouquets decorating our signature celebration cakes.",
-    season: "Spring / February & May",
-    image: "./images/2.png"
+    description: "Mother’s day & Valentine’s Special. Available on Strawberry Shortcake, Chocolate Queen, or Japonaise Green Tea.",
+    season: "Valentine's & Mother's Day",
+    image: "./images/holiday_mothers_valentines.png",
+    bases: ["Strawberry Shortcake", "Chocolate Queen", "Japonaise Green Tea"]
   },
   {
-    title: "Thanksgiving Celebration Cakes",
+    title: "Thanksgiving Special",
     japanese: "サンクスギビング特製ケーキ",
-    description: "Warm seasonal accents on Strawberry Shortcake, Chocolate Queen, and Matcha bavarian cakes.",
-    season: "Autumn / November",
-    image: "./images/3.png"
+    description: "Thanksgiving Special. Available on Strawberry Shortcake, Chocolate Queen, or Japonaise Green Tea.",
+    season: "Thanksgiving / Autumn",
+    image: "./images/holiday_thanksgiving.png",
+    bases: ["Strawberry Shortcake", "Chocolate Queen", "Japonaise Green Tea"]
   },
   {
-    title: "Halloween Specials: No Face & Kodama Pan",
-    japanese: "カオナシ＆コダマ ハロウィンパン",
-    description: "Limited edition Studio Ghibli-inspired character breads: chocolate-filled 'No Face Pan' and cream-filled 'Kodama Pan'.",
+    title: "Halloween Special: No Face Pan",
+    japanese: "ハロウィン限定 カオナシパン",
+    description: "Halloween Special. No Face Pan. Studio Ghibli inspired sweet bread filled with rich Belgian chocolate custard.",
     season: "October Halloween",
-    image: "./images/23.png"
+    image: "./images/holiday_noface.png",
+    type: "Character Bread"
+  },
+  {
+    title: "Halloween Special: Kodama Pan",
+    japanese: "ハロウィン限定 コダマパン",
+    description: "Halloween Special. Kodama Pan. Princess Mononoke tree spirit inspired sweet bun filled with vanilla custard cream.",
+    season: "October Halloween",
+    image: "./images/holiday_kodama.png",
+    type: "Character Bread"
   }
 ];
 

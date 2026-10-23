@@ -11,15 +11,6 @@ export default function Hero({ onExploreMenu, onVisit }) {
           {/* Left Column: Story & Hero Copy */}
           <div className="lg:col-span-7 flex flex-col justify-center text-left">
             
-            {/* Prominent Official Brand Logo */}
-            <div className="mb-6">
-              <img
-                src="./images/CAFE_JAPONAISE.png"
-                alt="Cafe Japonaise Bakery"
-                className="h-16 sm:h-20 lg:h-24 w-auto object-contain drop-shadow-xs"
-              />
-            </div>
-
             {/* Heritage Pill */}
             <div className="inline-flex items-center gap-2 self-start bg-[#EFE6D8] border border-[#DFCBB5] text-[#8C3A27] px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6">
               <Award className="w-4 h-4 text-[#C1882A]" />
