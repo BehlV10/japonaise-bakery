@@ -14,7 +14,7 @@ export default function Footer({ onNavigate }) {
             <img
               src="./images/CAFE_JAPONAISE.png"
               alt="Japonaise Bakery & Cafe"
-              className="h-12 w-auto object-contain brightness-110"
+              className="h-16 sm:h-20 w-auto object-contain brightness-110 mb-2"
             />
             <p className="text-xs sm:text-sm text-[#A89E93] leading-relaxed max-w-sm">
               Serving handcrafted French viennoiserie with an authentic Japanese twist since 1985. Brookline's destination for fluffy Shoku Pan, matcha croissants, and delicate celebration cakes.

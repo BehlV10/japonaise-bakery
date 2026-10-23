@@ -102,7 +102,7 @@ export default function Navbar({ activeSection, setActiveSection }) {
             <img
               src="./images/CAFE_JAPONAISE.png"
               alt="Japonaise Bakery & Cafe"
-              className="h-10 sm:h-12 w-auto object-contain transition group-hover:opacity-90"
+              className="h-12 sm:h-16 lg:h-20 w-auto max-w-[280px] object-contain transition group-hover:opacity-90 py-0.5"
             />
           </button>
 
