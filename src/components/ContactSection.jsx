@@ -19,7 +19,21 @@ export default function ContactSection() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulate submission
+    
+    // Construct real mailto string to japonaise617@gmail.com
+    const subject = encodeURIComponent(`[Japonaise Website Inquiry] ${formData.inquiryType.toUpperCase()}: ${formData.name}`);
+    const body = encodeURIComponent(
+      `Hello Japonaise Bakery,\n\n` +
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Phone: ${formData.phone || 'Not provided'}\n` +
+      `Inquiry Topic: ${formData.inquiryType}\n\n` +
+      `Message:\n${formData.message}\n\n` +
+      `---\nSent via Japonaise Bakery Redesigned Website`
+    );
+
+    // Launch user's default email client with prefilled draft
+    window.location.href = `mailto:${businessInfo.email}?subject=${subject}&body=${body}`;
     setFormSubmitted(true);
   };
 

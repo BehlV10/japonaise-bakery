@@ -21,11 +21,12 @@ export default function ItemModal({ item, onClose }) {
         {/* Photo header */}
         <div className="relative aspect-[16/10] bg-stone-100 overflow-hidden shrink-0">
           <img
-            src={item.image}
+            src={item.image || './images/DSC_6880-2.jpg'}
             alt={item.name}
             className="w-full h-full object-cover object-center"
             onError={(e) => {
-              e.target.src = './images/DSC_6880-2.jpg';
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = './images/DSC_6880-2.jpg';
             }}
           />
           <button

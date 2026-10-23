@@ -559,14 +559,14 @@ export const holidaySpecials = [
     japanese: "クリスマス限定ケーキ",
     description: "Festive Japanese holiday decoration available on our Strawberry Shortcake, Chocolate Queen, or Japonaise Green Tea cakes.",
     season: "Winter / Holiday Season",
-    image: "./images/7f5f6bc1-08d1-4067-a21a-21c57fb406f2_1.png" || "./images/1.png"
+    image: "./images/1.png"
   },
   {
     title: "Mother's Day & Valentine's Specials",
     japanese: "母の日・バレンタイン特製ケーキ",
     description: "Handcrafted chocolate hearts and fresh strawberry bouquets decorating our signature celebration cakes.",
     season: "Spring / February & May",
-    image: "./images/a0067cb7-3058-4c76-b8c3-622f6815dfa7_2.png" || "./images/2.png"
+    image: "./images/2.png"
   },
   {
     title: "Thanksgiving Celebration Cakes",
@@ -580,7 +580,7 @@ export const holidaySpecials = [
     japanese: "カオナシ＆コダマ ハロウィンパン",
     description: "Limited edition Studio Ghibli-inspired character breads: chocolate-filled 'No Face Pan' and cream-filled 'Kodama Pan'.",
     season: "October Halloween",
-    image: "./images/94fab063-f458-4d2e-a44d-dae775ba1c85_1.png" || "./images/23.png"
+    image: "./images/23.png"
   }
 ];
 

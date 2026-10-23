@@ -16,6 +16,23 @@ export default function ApplyModal({ job, onClose }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Construct real mailto string to japonaise617@gmail.com
+    const subject = encodeURIComponent(`[Job Application] ${job.title} - ${applicant.name}`);
+    const body = encodeURIComponent(
+      `Hello Japonaise Bakery Hiring Team,\n\n` +
+      `I am applying for the position of: ${job.title} (${job.japaneseTitle})\n\n` +
+      `Applicant Details:\n` +
+      `- Full Name: ${applicant.name}\n` +
+      `- Email: ${applicant.email}\n` +
+      `- Phone: ${applicant.phone}\n` +
+      `- Shift Availability / Desired Hours: ${applicant.availability}\n\n` +
+      `Experience / Notes:\n` +
+      `${applicant.experience || 'None specified'}\n\n` +
+      `---\nSent via Japonaise Bakery Career Portal`
+    );
+
+    window.location.href = `mailto:japonaise617@gmail.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
 
